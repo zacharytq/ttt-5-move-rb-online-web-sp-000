@@ -10,3 +10,5 @@ puts "Please make a move."
 user_input = input_to_index(gets.strip)
 
 move(board, user_input)
+
+display_board(board)
